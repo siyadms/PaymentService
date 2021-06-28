@@ -1,0 +1,27 @@
+POST http://localhost:8081/payments/schedule HTTP/1.1
+content-type: application/json
+
+{
+    "id": "pexa12345",
+    "transactions": [
+        {
+            "id": "transaction1",
+            "from": "bank1",
+            "to" : "bank2",
+            "amount": 150000
+        },
+        {
+            "id": "transaction2",
+            "from": "bank2",
+            "to" : "bank1",
+            "amount": 100000
+        },
+        {
+            "id": "transaction3",
+            "from": "bank2",
+            "to" : "bank1",
+            "amount": 150000
+        }
+    ]
+}
+

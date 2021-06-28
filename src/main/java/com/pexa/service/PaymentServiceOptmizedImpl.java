@@ -10,7 +10,7 @@ import com.pexa.model.PaymentList;
 import com.pexa.model.Transaction;
 import com.pexa.model.TransactionTree;
 
-@Service
+@Service("paymentServiceOptmized")
 class PaymentServiceOptmizedImpl implements PaymentService{
 
 	@Override

@@ -12,7 +12,7 @@ import java.util.Random;
 
 import org.springframework.stereotype.Service;
 
-// @Service
+@Service("paymentService")
 class PaymentServiceImpl implements PaymentService{
 
 	@Override

@@ -1,0 +1,48 @@
+{
+    "id": "pexa12345",
+        "transactions": [
+            
+            {
+                "id": "transaction1",
+                "from": "bank1",
+                "to" : "bank2",
+                "amount": 150000
+            },
+            {
+                "id": "transaction2",
+                "from": "bank2",
+                "to" : "bank1",
+                "amount": 100000
+            },
+            {
+                "id": "transaction3",
+                "from": "bank2",
+                "to" : "bank1",
+                "amount": 150000
+            },
+            {
+                "id": "transaction4",
+                "from": "bank3",
+                "to" : "bank1",
+                "amount": 350000
+            },
+            {
+                "id": "transaction5",
+                "from": "bank1",
+                "to" : "bank3",
+                "amount": 100000
+            },
+            {
+                "id": "transaction6",
+                "from": "bank2",
+                "to" : "bank3",
+                "amount": 100000
+            },
+            {
+                "id": "transaction7",
+                "from": "bank3",
+                "to" : "bank1",
+                "amount": 150000
+            }
+        ]
+    }
